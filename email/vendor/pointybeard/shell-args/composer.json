@@ -1,0 +1,23 @@
+{
+    "name": "pointybeard/shell-args",
+    "type": "library",
+    "description": "A simple interface for processing arguments passed on the command line to PHP.",
+    "keywords": ["shell", "arguments", "argv", "argc", "command line"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alistair Kearney",
+            "email": "hi@alistairkearney.com",
+            "homepage": "http://alistairkearney.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "pointybeard\\ShellArgs\\": "src/"
+        }
+    }
+}
