@@ -9,6 +9,6 @@ do
        ssh $line 'bash /root/get_home_disk_usage.sh' >> mail_2
        echo -e "\n-------------------------------------------------\n" >> mail_2
        cat mail_1 mail_2 > mail_content
-       php ./mail/send_content.php --content=$PWD/mail_content
+       php ./email/send_content.php --content=$PWD/mail_content
    fi
 done
